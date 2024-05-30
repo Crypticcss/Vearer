@@ -8,7 +8,7 @@
 ░          ░░   ░ ▒ ▒ ░░  ░░         ░       ▒ ░░        
 ░ ░         ░     ░ ░                        ░  ░ ░      
 ░                 ░ ░                           ░        
-         
+
 Link: https://crypticcss.github.io/Server/
 
 ## Contributing
