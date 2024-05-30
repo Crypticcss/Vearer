@@ -3,10 +3,6 @@
  | (__| '_| || | '_ \  _| / _|
   \___|_|  \_, | .__/\__|_\__|
            |__/|_|            
-
-
-
-
 Link: https://crypticcss.github.io/Server/
 
 ## Contributing
