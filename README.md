@@ -5,7 +5,7 @@
 ░░╚██╔╝░░███████╗██║░░██║██║░░██║███████╗██║░░██║
 ░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝
 
-Link: https://crypticcss.github.io/Verner/
+Link: https://crypticcss.github.io/Vearer/
 
 ## Contributing
 
