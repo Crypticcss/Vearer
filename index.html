@@ -3,142 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crypticcss Blog</title>
+    <title>Crypticcss Electronic Repair</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 10px 0;
+            background-color: #f0f0f0;
+            color: #333;
             text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #444;
-            color: #fff;
-            padding: 10px 0;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            padding: 10px 20px;
-            cursor: pointer;
-        }
-        .tab-content {
-            display: none;
             padding: 20px;
-            background: #fff;
-            margin: 20px 0;
         }
-        .tab-content.active {
-            display: block;
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
         }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
+
+        h1 {
+            color: #1a73e8;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .contact-info {
             margin-top: 20px;
+            font-size: 18px;
+        }
+
+        .contact-info a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Crypticcss PC Repair/Blog</h1>
-    </header>
-
-    <nav>
-        <a href="#home" class="tab-link" onclick="openTab(event, 'home')">Home</a>
-        <a href="#about" class="tab-link" onclick="openTab(event, 'about')">About</a>
-        <a href="#projects" class="tab-link" onclick="openTab(event, 'projects')">Projects</a>
-        <a href="#secret" class="tab-link" onclick="checkPassword(event, 'secret')">Secret</a>
-    </nav>
-
     <div class="container">
-        <div id="home" class="tab-content active">
-            <h2>Home</h2>
-            <p>Welcome to my website! If you wish to email me about any PC Repair check out the "Contact" tab! if not then this website contains multiple projects of mine i wish to document that i have messed around with or created. There is a spot to download any videos i have made in the past.</p>
-        </div>
-
-        <div id="about" class="tab-content">
-            <h2>Who?</h2>
-            <p>Cryptic! Atleast that's my online handle. While my real name might be easy to find on the internet, I believe in keeping it safe whenever i can. As my interest in technology grows, I would really like to document my learning journey. This is partly for others to see, but mainly for me to reflect on my progress and experiences. I love having a place to record and share my experiences with others. I plan to update this whenever i can and hopefully it grows!</p>
-        </div>
-
-        <div id="projects" class="tab-content">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Project Title 1</h3>
-                <p><strong>Created on:</strong> January 1, 2024</p>
-                <p><strong>Status:</strong> Ongoing</p>
-                <p><strong>Description:</strong> Brief description of the project, what it aims to achieve, and key features.</p>
-                <div class="project-links">
-                    <a href="http://example.com" target="_blank">Link to Project</a>
-                    <a href="http://github.com/example" target="_blank">GitHub Repository</a>
-                </div>
-                <img src="https://github.com/Crypticcss/Serrvertest/blob/main/Menace%20Duck.jpg?raw=true" alt="Project Image 1">
-            </div>
-
-            <div class="project">
-                <h3>Project Title 2</h3>
-                <p><strong>Created on:</strong> February 15, 2024</p>
-                <p><strong>Status:</strong> Completed</p>
-                <p><strong>Description:</strong> Brief description of the project, what it aimed to achieve, and key features.</p>
-                <div class="project-links">
-                    <a href="http://example.com" target="_blank">Link to Project</a>
-                    <a href="http://github.com/example" target="_blank">GitHub Repository</a>
-                </div>
-                <img src="path/to/image2.jpg" alt="Project Image 2">
-            </div>
-        </div>
-
-        <div id="secret" class="tab-content">
-            <h2>Secret Page</h2>
-            <p>This content is protected by a password.</p>
+        <h1>Crypticcss Electronic Repair</h1>
+        <p>
+            Hi there! I'm Cryptic, a passionate electronics enthusiast with years of experience helping friends and family
+            fix their devices. I understand how frustrating it can be when something breaks, and that's why I'm here to offer
+            friendly, no-pressure help to get you back up and running.
+        </p>
+        <p>
+            Unlike big businesses, my goal is to help out in a more casual, personalized way, making it easier for you to fix
+            your electronics without all the hassle. Whether you're dealing with a broken computer, phone, or any other device,
+            I’m here to help!
+        </p>
+        <div class="contact-info">
+            <p>Feel free to reach out to me at:</p>
+            <p>Email: <a href="mailto:your-email@gmail.com">your-email@gmail.com</a></p>
+            <p>Phone: <a href="tel:+1234567890">+123-456-7890</a></p>
         </div>
     </div>
-
-    <footer>
-        <p>&copy; 2024 My Personal Website. All rights reserved.</p>
-    </footer>
-
-    <script>
-        function openTab(event, tabName) {
-            var i, tabcontent, tablinks;
-            tabcontent = document.getElementsByClassName("tab-content");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].classList.remove("active");
-            }
-            tablinks = document.getElementsByClassName("tab-link");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].classList.remove("active");
-            }
-            document.getElementById(tabName).classList.add("active");
-            event.currentTarget.classList.add("active");
-        }
-
-        function checkPassword(event, tabName) {
-            var password = prompt("Please enter the password:");
-            if (password === "yourpassword") { // Replace "yourpassword" with the actual password
-                openTab(event, tabName);
-            } else {
-                alert("Incorrect password!");
-            }
-        }
-    </script>
 
 </body>
 </html>
